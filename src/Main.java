@@ -15,9 +15,9 @@ public class Main {
         System.out.println("Задание 1");
         int os = 1;
         if (os == 0) {
-            System.out.println("установите версию для приложения IOS по ссылке");
+            System.out.println("Установите версию  приложения для IOS по ссылке");
         } else if (os == 1) {
-            System.out.println("установите версию для приложения Android по ссылке");
+            System.out.println("Установите версию  приложения для Android по ссылке");
         } else {
             System.out.println("неверное значение");
         }
@@ -44,12 +44,13 @@ public class Main {
         }
         //Задание 4//
         System.out.println("Задание 4");
-        int deliveryDistance = 120;
+        int deliveryDistance = 61;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней:" + 1);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
             System.out.println("Потребуется дней:" + 2);
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            System.out.println("Потребуется дней:" + 3);
         } else {
             System.out.println("Доставки нет");
         }
